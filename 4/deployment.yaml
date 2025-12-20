@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-kube
+spec:
+  selector:
+    matchLabels:
+      app: hello-kube
+  template:
+    metadata:
+      labels:
+        app: hello-kube
+    spec:
+      containers:
+      - name: web
+        image: asdfghjkl0/hello-kube-amir:1.0.0 
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
