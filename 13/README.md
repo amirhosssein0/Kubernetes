@@ -36,6 +36,10 @@ If we wanted multiple Pods to share the same set of variables, we would have to 
     # printenv HOSTNAME
     random-number-api
 
+Now we want some Pods in another Deployment to use variables from this config.env, but not all of them—we don’t want the other variables to be injected into the container. For example, we only want status.
+
+We can do this using valueFrom.
+
 5) 
     kubectl apply -f random-number-client-deployment.yaml -->valuefrom 
 
