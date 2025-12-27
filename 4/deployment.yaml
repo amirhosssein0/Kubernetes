@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: asdfghjkl0/hello-kube-amir:1.0.0 
+        image: aaghamohammadi/hello_kube:1.0.0 
         resources:
           limits:
             memory: "128Mi"
