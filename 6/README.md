@@ -9,7 +9,7 @@ Here, on our node, we created two Deployments, each managing one Pod, and in eac
     kubectl apply -f hello-kube-1.yaml -f hello-kube-2.yam
 
 2) 
-    kubectl get deployments => here we see 2 pods which have 2 dynamic virtual IPs
+    kubectl get deployments => here we see 2 deployments.
 
 3) 
     kubectl get pod -l app=hello-kube-1 -o wide => see IP = 10.42.0.21
