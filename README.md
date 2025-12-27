@@ -16,3 +16,4 @@ Kubernetes training!!
 13) What is ConfigMap?
 14) Volume and ConfigMap!
 15) How to define Secrets?
+16) EmptyDir Volume!
