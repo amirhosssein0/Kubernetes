@@ -8,7 +8,7 @@ But it’s better to assign a name to the external system and have Pods access i
 
 In this case, the user accesses a Pod through a LoadBalancer, and then the Pod communicates with the external service.
 
-In this case our external service is EspaceX API!!
+In this case our external service is spaceX API!!
 
 1) 
     kubectl apply -f spacex-app-deployment.yaml -f spacex-app-svc.yaml
