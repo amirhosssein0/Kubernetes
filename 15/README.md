@@ -19,3 +19,13 @@ It’s very similar to a ConfigMap, but the difference is that the resource we c
     Data   ---> it doesnt show data, but config map shows
     ====
     postgres-password:  12 bytes
+
+3) 
+    kubectl exec -it deploy/postgres-deployment -c postgres -- sh
+    >/# echo $POSTGRES_PASSWORD_FILE
+    /etc/secrets/postgres-password
+    >/# ls -l /etc/secrets
+    total 0
+    lrwxrwxrwx 1 root root 24 Dec 28 08:29 postgres-password -> ..data/postgres-password
+    >/# ls -l $(readlink -f /etc/secrets/postgres-password)
+    -r-------- 1 root root 12 Dec 28 08:29 /etc/secrets/..2025_12_28_08_29_59.3607037502/postgres-password
