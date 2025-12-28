@@ -31,3 +31,4 @@ so, our pod will be replaced. but we can see our data in new pod!!
 
 7) kubectl delete -f deployment.yaml --> if delete our pod and apply again, we wont see our last data!
 
+In the end, the emptyDir volume is mostly used for storing caches or temporary data—data that is temporary, but not so temporary that it should disappear when a container is removed or replaced. It only gets deleted when the Pod is deleted.
