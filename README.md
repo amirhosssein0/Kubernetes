@@ -17,3 +17,6 @@ Kubernetes training!!
 14) Volume and ConfigMap!
 15) How to define Secrets?
 16) EmptyDir Volume!
+17) What is hostPath volume?
+18) Theory of PVC, PV and Storage Classes!
+19) PVC, PV, and Storage Class In Action!
