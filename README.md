@@ -20,3 +20,5 @@ Kubernetes training!!
 17) What is hostPath volume?
 18) Theory of PVC, PV and Storage Classes!
 19) PVC, PV, and Storage Class In Action!
+20) How to Scale Out with Replicas?
+21) Resource Management: Requests and Limits!
