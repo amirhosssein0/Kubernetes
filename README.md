@@ -22,3 +22,5 @@ Kubernetes training!!
 19) PVC, PV, and Storage Class In Action!
 20) How to Scale Out with Replicas?
 21) Resource Management: Requests and Limits!
+22) Multi containers!
+23) What is Init containers?
