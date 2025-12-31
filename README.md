@@ -24,3 +24,4 @@ Kubernetes training!!
 21) Resource Management: Requests and Limits!
 22) Multi containers!
 23) What is Init containers?
+24) Theory of StatefulSets
