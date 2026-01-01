@@ -25,3 +25,6 @@ Kubernetes training!!
 22) Multi containers!
 23) What is Init containers?
 24) Theory of StatefulSets
+25) StatefulSets Project!
+26) what are Readiness and Liveness probes?
+27) Readiness and Liveness probes project!
