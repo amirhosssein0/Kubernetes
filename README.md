@@ -28,3 +28,5 @@ Kubernetes training!!
 25) StatefulSets Project!
 26) what are Readiness and Liveness probes?
 27) Readiness and Liveness probes project!
+28) What is Job in Kubernetes?
+29) CronJob!
