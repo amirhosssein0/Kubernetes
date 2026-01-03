@@ -30,3 +30,5 @@ Kubernetes training!!
 27) Readiness and Liveness probes project!
 28) What is Job in Kubernetes?
 29) CronJob!
+30) Rollout?
+31) Blue Green!
